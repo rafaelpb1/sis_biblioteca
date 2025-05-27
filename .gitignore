@@ -1,0 +1,129 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+/src/Funcionario.java
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Arquivos de log
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Arquivos de dependências e pacotes
+node_modules/
+jspm_packages/
+web_modules/
+lib/
+libs/ # Se você armazena bibliotecas compiladas aqui, considere não ignorar
+
+# Arquivos temporários
+*.tmp
+*~
+*.swp
+*#
+
+# Diretórios de build e saída
+target/
+build/
+dist/
+
+# Arquivos específicos do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+shelf/ # IntelliJ IDEA shelf
+atlassian-ide-plugin.xml # IntelliJ Atlassian plugin
+com.intellij.shelf/ # IntelliJ shelf (versões mais recentes)
+
+# Arquivos específicos do Eclipse
+.settings/
+*.launch
+.externalToolBuilders/
+
+# Arquivos específicos do NetBeans
+nbproject/private/
+build.xml # Se gerado pelo NetBeans e não customizado
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Arquivos do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Arquivos do Gradle
+.gradle
+build/ # Já incluído acima, mas bom ter específico
+gradle-app.setting
+.gradletasknamecache
+gradle-wrapper.jar # Opcional: Alguns preferem versionar, outros não.
+                   # Versionar facilita para outros clonarem e buildarem sem instalar Gradle.
+                   # Não versionar mantém o repositório menor e força o uso do wrapper local.
+
+# Arquivos de sistema operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+$RECYCLE.BIN/ # Windows
+
+# Arquivos de configuração de ambiente (se contiverem segredos)
+.env
+.env.local
+.env.*.local
+!.env.example # Se você tiver um arquivo de exemplo
+
+# Arquivos de teste e cobertura
+coverage/
+*.gcno
+*.gcda
+*.gcov
+/site/ # Gerado por Maven site plugin
+
+# Arquivos de ferramentas de análise de código estático
+.lint/
+
+# Outros
+hs_err_pid*
+replay_pid*
