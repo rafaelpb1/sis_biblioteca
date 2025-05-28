@@ -49,7 +49,6 @@ node_modules/
 jspm_packages/
 web_modules/
 lib/
-libs/ # Se você armazena bibliotecas compiladas aqui, considere não ignorar
 
 # Arquivos temporários
 *.tmp
@@ -69,7 +68,7 @@ dist/
 *.iws
 shelf/ # IntelliJ IDEA shelf
 atlassian-ide-plugin.xml # IntelliJ Atlassian plugin
-com.intellij.shelf/ # IntelliJ shelf (versões mais recentes)
+com.intellij.shelf/
 
 # Arquivos específicos do Eclipse
 .settings/
@@ -78,7 +77,7 @@ com.intellij.shelf/ # IntelliJ shelf (versões mais recentes)
 
 # Arquivos específicos do NetBeans
 nbproject/private/
-build.xml # Se gerado pelo NetBeans e não customizado
+build.xml
 nbbuild/
 nbdist/
 .nb-gradle/
@@ -94,13 +93,11 @@ buildNumber.properties
 
 # Arquivos do Gradle
 .gradle
-build/ # Já incluído acima, mas bom ter específico
+build/
 gradle-app.setting
 .gradletasknamecache
-gradle-wrapper.jar # Opcional: Alguns preferem versionar, outros não.
-                   # Versionar facilita para outros clonarem e buildarem sem instalar Gradle.
-                   # Não versionar mantém o repositório menor e força o uso do wrapper local.
-
+gradle-wrapper.jar 
+                  
 # Arquivos de sistema operacional
 .DS_Store # macOS
 Thumbs.db # Windows
@@ -108,18 +105,18 @@ ehthumbs.db # Windows
 Desktop.ini # Windows
 $RECYCLE.BIN/ # Windows
 
-# Arquivos de configuração de ambiente (se contiverem segredos)
+# Arquivos de configuração de ambiente
 .env
 .env.local
 .env.*.local
-!.env.example # Se você tiver um arquivo de exemplo
+!.env.example
 
 # Arquivos de teste e cobertura
 coverage/
 *.gcno
 *.gcda
 *.gcov
-/site/ # Gerado por Maven site plugin
+/site/
 
 # Arquivos de ferramentas de análise de código estático
 .lint/
