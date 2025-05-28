@@ -97,10 +97,8 @@ buildNumber.properties
 build/ # Já incluído acima, mas bom ter específico
 gradle-app.setting
 .gradletasknamecache
-gradle-wrapper.jar # Opcional: Alguns preferem versionar, outros não.
-                   # Versionar facilita para outros clonarem e buildarem sem instalar Gradle.
-                   # Não versionar mantém o repositório menor e força o uso do wrapper local.
-
+gradle-wrapper.jar 
+                  
 # Arquivos de sistema operacional
 .DS_Store # macOS
 Thumbs.db # Windows
